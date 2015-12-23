@@ -1,6 +1,6 @@
 The Installation in HOME-USER-FOLDER execute follow terminal commands:
 
-    git clone git@bitbucket.org:svenmauer/dotvim.git ~/.vim
+    git clone https://github.com/svenmauer/dotvim.git ~/.vim
     git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
     cp ~/.vim/.vimrc ~/
 
