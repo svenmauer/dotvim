@@ -15,3 +15,5 @@ The Installation in HOME-USER-FOLDER execute follow terminal commands:
 
     cd ~/.vim/bundle/YouCompleteMe
     ./install.py --clang-completer
+
+The unmodificated files source: https://github.com/hojberg/dotvim
