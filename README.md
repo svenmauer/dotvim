@@ -15,5 +15,13 @@ The Installation in HOME-USER-FOLDER execute follow terminal commands:
 
     cd ~/.vim/bundle/YouCompleteMe
     ./install.py --clang-completer
+    
+    vim ~/.bashrc
+    alias tmux="TERM=screen-256color-bce tmux"
+    
+    And set up the default-terminal option in ~/.tmux.conf:
+
+    set -g default-terminal "xterm"
+    Lastly, do $ source ~/.bashrc to load new alias.
 
 The unmodificated files source: https://github.com/hojberg/dotvim
