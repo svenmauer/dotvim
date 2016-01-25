@@ -7,19 +7,20 @@ The Installation in HOME-USER-FOLDER execute follow terminal commands:
     Install bundles with Vundler in VIM: `BundleInstall!
     
     ON UBUNTU x64
-    Install development tools and CMake: sudo apt-get install build-essential cmake
+Install development tools and CMake: sudo apt-get install build-essential cmake
 
     Make sure you have Python headers installed: sudo apt-get install python-dev
 
-    Compiling YCM with semantic support for C-family languages:
+Compiling YCM with semantic support for C-family languages:
 
     cd ~/.vim/bundle/YouCompleteMe
     ./install.py --clang-completer
     
+Install TMUX modifications for VIM COLORS and more
     vim ~/.bashrc
     alias tmux="TERM=screen-256color-bce tmux"
     
-    And set up the default-terminal option in ~/.tmux.conf:
+And set up the default-terminal option in ~/.tmux.conf:
 
     set -g default-terminal "xterm"
     Lastly, do $ source ~/.bashrc to load new alias.
