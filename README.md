@@ -17,10 +17,12 @@ Compiling YCM with semantic support for C-family languages:
     ./install.py --clang-completer
     
 Install TMUX modifications for VIM COLORS and more
+
     vim ~/.bashrc
     alias tmux="TERM=screen-256color-bce tmux"
     
 And set up the default-terminal option in 
+
     vim ~/.tmux.conf:
     set -g default-terminal "xterm"
     Lastly, do $ source ~/.bashrc to load new alias.
